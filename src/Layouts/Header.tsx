@@ -115,7 +115,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             {
               content: (
                 <Link to="/" className="logo">
-                  Admin Template
+                  Empowerl
                 </Link>
               ),
             },
@@ -168,6 +168,10 @@ const Header: React.FC<HeaderProps> = (props) => {
                 </a>
               ),
             },
+            // {
+            //    icon: 'discord',
+            //    url: {href: '/dashboard'}
+            // },
             {
               icon: 'twitter',
               url: { href: 'https://twitter.com/AhmedElywh', target: '_blank' },
@@ -186,7 +190,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                       ]}
                       Link={Link}
                     >
-                      <User image="url('/icons/icon-72x72.png')" name="Ahmed Elywa" title="Manger" size="Medium" />
+                      <User image="url('/icons/icon-72x72.png')" name="User" title="Entreprenuer" size="Medium" />
                     </ContextMenu>
                   )}
                 </Location>
